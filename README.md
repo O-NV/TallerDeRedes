@@ -26,11 +26,11 @@ COMANDOS:
 
     ./coredns \
 
-        Inicia el servidor en el puerto predeterminado (53)
+Inicia el servidor en el puerto predeterminado (53)
 
     ./coredns -dns.port=PORT \
 
-        Inicia el servidor en un puerto específico
+Inicia el servidor en un puerto específico
 
 - Cliente:
 
