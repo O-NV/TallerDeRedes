@@ -22,7 +22,7 @@ Teniendo los contenedores de cada software, se podrán iniciar o detener de la s
     
 COMANDOS:
 
-- Server:
+Server:
 
     ./coredns 
 
@@ -32,7 +32,7 @@ Inicia el servidor en el puerto predeterminado (53)
 
 Inicia el servidor en un puerto específico
 
-- Cliente:
+Cliente:
 
     dog -q example.net -t MX -n 1.1.1.1 
         
@@ -43,7 +43,7 @@ Inicia el servidor en un puerto específico
 
 
 
-Github Cliente: https://github.com/ogham/dog
-Github servidor: https://github.com/coredns/coredns
+GitHub cliente: https://github.com/ogham/dog
+GitHub servidor: https://github.com/coredns/coredns
 
 Video explicativo: https://youtu.be/VIXUY6DNDv4
