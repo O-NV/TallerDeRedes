@@ -3,6 +3,23 @@ Dog, los cuales fueron instalados mediante código fuente en un documento Docker
 el server y con el cliente se establece la comunicación con el servidor. Teniendo esto, se capturan datos con Wireshark y se analizan los paquetes 
 generados con la comunicación hecha.
 
+
+INSTALACIÓN:
+
+ingrese a la carpeta en donde se encuentre el Dockerfile correspondiente, se procederá a realizar un build para así obtener las imágenes de cada uno de estos Docker:
+
+    sudo docker build -t NAME .
+
+Luego, a cada imagen se le realizará un run para poder crear su respectivo contenedor:
+
+    sudo docker run -it ID_IMAGEN .
+
+Teniendo los contenedores de cada software, se podrán iniciar o detener de la siguiente manera:
+
+    sudo docker container start -i ID_CONTAINER
+    sudo docker container stop -i ID_CONTAINER
+
+    
 COMANDOS:
 
 - Server:
