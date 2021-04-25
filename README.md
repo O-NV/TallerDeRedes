@@ -24,7 +24,7 @@ COMANDOS:
 
 - Server:
 
-    ./coredns \
+     ./coredns \
 
 Inicia el servidor en el puerto predeterminado (53)
 
@@ -35,6 +35,13 @@ Inicia el servidor en un puerto específico
 - Cliente:
 
     dog -q example.net -t MX -n 1.1.1.1 \
-        -q => Host name o domain name \
-        -t => DNS record type \
-        -n => Address del nameserver
+        
+-q => Host name o domain name \
+-t => DNS record type \
+-n => Address del nameserver
+
+
+
+
+Github Cliente: https://github.com/ogham/dog
+Github servidor: https://github.com/coredns/coredns
