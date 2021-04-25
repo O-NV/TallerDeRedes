@@ -6,7 +6,7 @@ generados con la comunicación hecha.
 
 INSTALACIÓN:
 
-ingrese a la carpeta en donde se encuentre el Dockerfile correspondiente, se procederá a realizar un build para así obtener las imágenes de cada uno de estos Docker:
+Ingrese a la carpeta en donde se encuentre el Dockerfile correspondiente, se procederá a realizar un build para así obtener las imágenes de cada uno de estos Docker:
 
     sudo docker build -t NAME .
 
@@ -25,9 +25,11 @@ COMANDOS:
 - Server:
 
     ./coredns \
+
         Inicia el servidor en el puerto predeterminado (53)
 
     ./coredns -dns.port=PORT \
+
         Inicia el servidor en un puerto específico
 
 - Cliente:
