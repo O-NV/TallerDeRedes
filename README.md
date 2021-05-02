@@ -47,4 +47,8 @@ GitHub cliente: https://github.com/ogham/dog
 GitHub servidor: https://github.com/coredns/coredns
 
 Video explicativo (hacer click en la imagen):
-[![Video explicativo](https://1.bp.blogspot.com/-lX1jN6MwtW0/XSv46aF3KeI/AAAAAAAAD2I/uod3M0T0SeEvFMHq03BLtNGpsRexD1JewCLcBGAs/s1600/Want2host.jpg)](https://youtu.be/Ty-BlkJTvc0)
+[![Video explicativo](https://1.bp.blogspot.com/-lX1jN6MwtW0/XSv46aF3KeI/AAAAAAAAD2I/uod3M0T0SeEvFMHq03BLtNGpsRexD1JewCLcBGAs/s1600/Want2host.jpg)](https://youtu.be/VIXUY6DNDv4)
+
+Video explicativo 2.0:
+
+https://youtu.be/Ty-BlkJTvc0
