@@ -1,3 +1,7 @@
+
+
+> **Entrega 1:**
+
 Este proyecto consistió en la comunicación entre servidor y cliente usando el protocolo DNS. Para esto, se utilizó el servidor CoreDNS y el cliente
 Dog, los cuales fueron instalados mediante código fuente en un documento Docker. Con las respectivas imágenes creadas y contenedores corriendo, se abre 
 el server y con el cliente se establece la comunicación con el servidor. Teniendo esto, se capturan datos con Wireshark y se analizan los paquetes 
@@ -52,3 +56,7 @@ Video explicativo (hacer click en la imagen):
 Video explicativo 2.0:
 
 https://youtu.be/Ty-BlkJTvc0
+
+
+
+> **Entrega 2:**
