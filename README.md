@@ -67,15 +67,17 @@ Como la creacion del Docker era parte de la entrega anterior, para este protocol
     docker pull mariadb
 
 **Instalacion docker Cliente MYSQL**
-    `docker pull chaifeng/mycli`
+    
+    docker pull chaifeng/mycli
 
 **Arranque del Servidor y Cliente**
 
 Server:
 Para arrancar el servidor, debemos ingresar el siguiente comando:
-    `docker images`
-    `docker run -e MYSQL_ROOT_PASSWORD=password -d mariadb`
-    `docker ps`
+    
+    docker images
+    docker run -e MYSQL_ROOT_PASSWORD=password -d mariadb
+    docker ps
 Con el ultimo comando, aparecerá en pantalla una tabla con los items "CONTAINER ID", "IMAGE" ETC. Copie le nombre que sale en la tabla e ingrese:
 
 
