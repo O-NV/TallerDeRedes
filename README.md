@@ -96,4 +96,17 @@ La segunda parte del proyecto tiene como finalidad interceptar y modificar el tr
     pip3 install git+https://github.com/kti/python-netfilterqueue
     pip3 install polymorph
 
+**Uso de Polymorph**
 
+Capturar trafico generado por los docker:
+    capture -v -i docker0
+
+Mostrar las funciones guardadas en polymorph:
+    functions -s 
+
+Abrir y editar alguna funcion:
+
+    functions -a "nombrefuncion" -e vim
+Interceptar trafico de los sw:
+
+    intercept
