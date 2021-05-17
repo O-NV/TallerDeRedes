@@ -62,11 +62,23 @@ https://youtu.be/Ty-BlkJTvc0
 Por motivos fuerza mayor, desde la segunda entrega se utilizará el protocolo a MYSQL, donde el servidorar será MariaDB y el cliente Mycli.
 Como la creacion del Docker era parte de la entrega anterior, para este protocolo se utilizarán Dockerfile de "dockerHub"
 
-**Instalacion docker servidor MYSQL**
+**Instalacion docker Servidor MYSQL**
 `docker pull mariadb `
 
-**Instalacion docker cliente MYSQL**
+**Instalacion docker Cliente MYSQL**
 `docker pull chaifeng/mycli`
+
+**Arranque del Servidor y Cliente**
+
+Server:
+Para arrancar el servidor, debemos ingresar el siguiente comando:
+`docker images`
+`docker run -e MYSQL_ROOT_PASSWORD=password -d mariadb`
+`docker ps`
+Con el ultimo comando, aparecerá en pantalla una tabla con los items "CONTAINER ID", "IMAGE" ETC. Copie le nombre que sale en la tabla e ingrese:
+
+
+
 
 La segunda parte del proyecto tiene como finalidad interceptar y modificar el trafico generado por software MYSQL mediante Polymorph 
 
