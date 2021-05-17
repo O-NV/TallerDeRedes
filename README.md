@@ -63,7 +63,7 @@ Por motivos fuerza mayor, desde la segunda entrega se utilizará el protocolo a 
 Como la creacion del Docker era parte de la entrega anterior, para este protocolo se utilizarán Dockerfile de "dockerHub"
 
 **Instalacion docker Servidor MYSQL**
-    `docker pull mariadb `
+    docker pull mariadb
 
 **Instalacion docker Cliente MYSQL**
     `docker pull chaifeng/mycli`
