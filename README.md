@@ -90,3 +90,8 @@ La segunda parte del proyecto tiene como finalidad interceptar y modificar el tr
 
 **Instalacion Polymorph**
 
+    apt-get install build-essential python-dev libnetfilter-queue-dev tshark tcpdump python3-pip wireshark git
+    pip3 install git+https://github.com/kti/python-netfilterqueue
+    pip3 install polymorph
+
+
