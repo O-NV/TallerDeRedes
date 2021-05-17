@@ -113,3 +113,6 @@ Abrir y editar alguna funcion:
 Interceptar trafico de los sw:
 
     intercept
+
+Video explicativo (hacer click en la imagen):
+[![Video explicativo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbuconda.com%2Fproducto%2Fformacion-introduccion-mysql-online-presencial-4-sesiones%2F&psig=AOvVaw0AzumWmYCstIkPJtJu4dWT&ust=1621309277847000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDKivHlz_ACFQAAAAAdAAAAABAs)](https://youtu.be/VIXUY6DNDv4)
