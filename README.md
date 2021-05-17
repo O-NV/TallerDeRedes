@@ -82,6 +82,8 @@ Con el ultimo comando, aparecerá en pantalla una tabla con los items "CONTAINER
 
     docker exec -it "NOMBRE" mysql -u root -p
 
+
+Client:
 Para arrancar el cliente se debe ingresar:
 
     docker run -it -e MYSQL_HOST=172.17.0.3 e72124d6d0
