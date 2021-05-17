@@ -115,4 +115,5 @@ Interceptar trafico de los sw:
     intercept
 
 Video explicativo (hacer click en la imagen):
+
 [![Video explicativo](https://edteam-media.s3.amazonaws.com/courses/big/3aa59acc-3472-4875-b9c6-216825be755b.png)](https://youtu.be/Cz20_ZtU368)
