@@ -59,11 +59,15 @@ https://youtu.be/Ty-BlkJTvc0
 
 > **Entrega 2:**
 
-Por motivos fuerza mayor, desde la segunda entrega se utilizará el protocolo a MYSQL.
-La segunda parte del proyecto tiene como finalidad interceptar y modificar el trafico generado por software MYSQL mediante Polymorph 
+Por motivos fuerza mayor, desde la segunda entrega se utilizará el protocolo a MYSQL, donde el servidorar será MariaDB y el cliente Mycli.
+Como la creacion del Docker era parte de la entrega anterior, para este protocolo se utilizarán Dockerfile de "dockerHub"
 
 **Instalacion docker servidor MYSQL**
+`docker pull mariadb `
 
 **Instalacion docker cliente MYSQL**
+`docker pull chaifeng/mycli`
+
+La segunda parte del proyecto tiene como finalidad interceptar y modificar el trafico generado por software MYSQL mediante Polymorph 
 
 **Instalacion Polymorph**
