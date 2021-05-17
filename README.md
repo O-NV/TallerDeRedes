@@ -59,7 +59,7 @@ https://youtu.be/Ty-BlkJTvc0
 
 > **Entrega 2:**
 
-Por motivos fuerza mayor, desde la segunda entrega se utilizará el protocolo a MYSQL, donde el servidorar será MariaDB y el cliente Mycli.
+Por motivos fuerza mayor, desde la segunda entrega se utilizará el protocolo a MYSQL, donde el servidor será MariaDB y el cliente será Mycli.
 Como la creacion del Docker era parte de la entrega anterior, para este protocolo se utilizarán Dockerfile de "dockerHub"
 
 **Instalacion docker Servidor MYSQL**
