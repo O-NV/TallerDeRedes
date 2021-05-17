@@ -73,7 +73,7 @@ Como la creacion del Docker era parte de la entrega anterior, para este protocol
 **Arranque del Servidor y Cliente**
 
 Server:
-Para arrancar el servidor, debemos ingresar el siguiente comando:
+Para arrancar el servidor, debemos ingresar los siguientes comandos:
     
     docker images
     docker run -e MYSQL_ROOT_PASSWORD=password -d mariadb
