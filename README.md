@@ -1,4 +1,3 @@
-
 > **Entrega 1:**
 
 Este proyecto consistió en la comunicación entre servidor y cliente usando el protocolo DNS. Para esto, se utilizó el servidor CoreDNS y el cliente
@@ -60,7 +59,7 @@ https://youtu.be/Ty-BlkJTvc0
 
 > **Entrega 2:**
 
-Por motivos fuerza mayor desde esta entrega se deberá cambiar el protocolo a MYSQL.
+Por motivos fuerza mayor, desde la segunda entrega se utilizará el protocolo a MYSQL.
 La segunda parte del proyecto tiene como finalidad interceptar y modificar el trafico generado por software MYSQL mediante Polymorph 
 
 **Instalacion docker servidor MYSQL**
