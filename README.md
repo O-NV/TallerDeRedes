@@ -80,9 +80,13 @@ Para arrancar el servidor, debemos ingresar los siguientes comandos:
     docker ps
 Con el ultimo comando, aparecerá en pantalla una tabla con los items "CONTAINER ID", "IMAGE" ETC. Copie le nombre que sale en la tabla e ingrese:
 
+    docker exec -it "NOMBRE" mysql -u root -p
 
+Para arrancar el cliente se debe ingresar:
 
+    docker run -it -e MYSQL_HOST=172.17.0.3 e72124d6d0
 
 La segunda parte del proyecto tiene como finalidad interceptar y modificar el trafico generado por software MYSQL mediante Polymorph 
 
 **Instalacion Polymorph**
+
