@@ -138,3 +138,5 @@ Packet corruption: Esta metrica se modificó a través de Netem con el siguiente
 Donde se estudió las repercuciones de la modificacion, en este caso fue el delay con el metodo pasivo en tiempo real y tambien los paquetes duplicadoscon el metodo activo offline
 
 Video explicativo (hacer click en la imagen):
+
+[![Video explicativo](http://www.solucionespm.com/wp-content/uploads/2016/10/metricas.png)](https://youtu.be/hwVs0wvYcbs)
