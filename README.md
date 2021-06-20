@@ -126,9 +126,11 @@ Este proyecto consistió en modificar dos métricas de red y analizar el comport
 Metricas a modificar:
 
 Delay: Estra metrica se modificó a través de Netem con el siguiente comando
+    
     tc qdisc add dev veth891a02c root netem delay 5000ms
 
 Packet corruption: Estra metrica se modificó a través de Netem con el siguiente comando
+    
     tc qdisc add dev veth891a02c root netem corrupt 70%
 
     
