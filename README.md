@@ -125,12 +125,16 @@ Este proyecto consistió en modificar dos métricas de red y analizar el comport
 
 Metricas a modificar:
 
-Delay: Estra metrica se modificó a través de Netem con el siguiente comando
+Delay: Esta metrica se modificó a través de Netem con el siguiente comando
     
     tc qdisc add dev veth891a02c root netem delay 5000ms
 
-Packet corruption: Estra metrica se modificó a través de Netem con el siguiente comando
+Donde se analiza el comportamiento de los paquetes duplicados con el metodo pasivo en tiempo real y el comportamiento de los packet corruption con el metodo activo offline    
+
+Packet corruption: Esta metrica se modificó a través de Netem con el siguiente comando
     
     tc qdisc add dev veth891a02c root netem corrupt 70%
 
-    
+Donde se estudió las repercuciones de la modificacion, en este caso fue el delay con el metodo pasivo en tiempo real y tambien los paquetes duplicadoscon el metodo activo offline
+
+Video explicativo (hacer click en la imagen):
