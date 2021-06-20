@@ -117,3 +117,18 @@ Interceptar trafico de los sw:
 Video explicativo (hacer click en la imagen):
 
 [![Video explicativo](https://edteam-media.s3.amazonaws.com/courses/big/3aa59acc-3472-4875-b9c6-216825be755b.png)](https://youtu.be/Cz20_ZtU368)
+
+
+> **Entrega 3:**
+
+Este proyecto consistió en modificar dos métricas de red y analizar el comportamiento del software antes y después de dicha modificaciones, además de estudiar el comportamiento de otras métricas, a partir de las variaciones de métricas aplicadas al software.
+
+Metricas a modificar:
+
+Delay: Estra metrica se modificó a través de Netem con el siguiente comando
+    tc qdisc add dev veth891a02c root netem delay 5000ms
+
+Packet corruption: Estra metrica se modificó a través de Netem con el siguiente comando
+    tc qdisc add dev veth891a02c root netem corrupt 70%
+
+    
